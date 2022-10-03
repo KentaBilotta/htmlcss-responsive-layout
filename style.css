@@ -3,3 +3,143 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 16px;
+    font-family: "Roboto", Arial;
+}
+
+header{
+    height: 8vh;
+    background-color: #0084fd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-left{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 15%;
+}
+
+.head-right{
+    width: 45%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.first-sec{
+    height: 70vh;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+
+.primo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 45%;
+    width: 30%;
+    background-color: #b5ddff;
+    margin: 8px;
+    border-radius: 30px;
+}
+
+.double{
+    background-color: #b5ddff;
+    border-radius: 30px;
+    height: 45%;
+    width: 61%;
+    margin: 10px;
+    display: flex;
+}
+
+.card-img{
+    height: 80%;
+    background-image: url("img/phone.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    
+}
+
+.card-text{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.card-title{
+    color: #0084fd;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.text{
+    color: #5a6e7f;
+    line-height: 25px;
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+.appstore-button{
+    color: white;
+    background-color: #0084fd;
+    padding: 10px;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+    margin: 20px;
+}
+
+.icon{
+    font-size: 4rem;
+    color: #0084fd;
+    margin-top: 20px;
+}
+
+.center{
+    text-align: center;
+}
+
