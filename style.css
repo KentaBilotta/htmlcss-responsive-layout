@@ -207,8 +207,6 @@ header{
     bottom: 50px;
     left: 0;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
 }
 
 .content{
@@ -419,7 +417,7 @@ header{
 }
 
 .quinto{
-    max-width: 55%;
+    width: 55%;
     height: 90%;
     margin-top: 50px;
     display: flex;
