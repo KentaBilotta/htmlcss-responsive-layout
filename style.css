@@ -9,6 +9,7 @@ html{
     font-family: "Roboto", Arial;
 }
 
+/* this part of styling is mostly refered to the header */
 header{
     height: 8vh;
     background-color: #0084fd;
@@ -57,6 +58,7 @@ header{
     border-radius: 15px;
 }
 
+/* this part of styling is mostly refered to the first section of main */
 .first-sec{
     height: 70vh;
     margin-top: 20px;
@@ -143,6 +145,7 @@ header{
     text-align: center;
 }
 
+/* this part of styling is mostly refered to the second section of main */
 .second-sec{
     width: 100%;
     height: 80vh;
@@ -244,3 +247,169 @@ header{
     padding: 15px;
     border-radius: 50%;
 }
+
+/* this part of styling is mostly refered to the third section of main */
+.third-sec{
+    height: 100vh;
+}
+
+.terzo{
+    max-width: 70%;
+}
+
+.sec-header{
+    height: 25%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.light-text{
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.big{
+    font-size: 2rem;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.purple{
+    color: #9792e4;
+}
+
+.profile{
+    height: 25%;
+    background-color: #9792e4;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.profile-content{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 90%;
+    flex-basis: 0;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.img-1{
+    background-image: url("img/testimonial1.jpg");
+}
+
+.img-2{
+    background-image: url("img/testimonial2.jpg");
+}
+
+.img-3{
+    background-image: url("img/testimonial3.jpg");
+}
+
+.profile-text{
+    margin-left: 30px;
+    height: 90%;
+    flex-basis: 0;
+    flex-grow: 4;
+    line-height: 25px;
+    margin-top: 70px;
+}
+
+.name{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* this part of styling is mostly refered to the fourth section of main */
+.fourth-sec{
+    height: 100vh;
+    background-color: #9792e4;
+    margin-top: 150px;
+}
+
+.quarto{
+    max-width: 70%;
+    height: 100%;
+}
+
+.fo-title{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.fo-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+.fo-card{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.fo-card-content{
+    height: 90%;
+    width: 90%;
+}
+
+.big2{
+    font-size: 3rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.big3{
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.fo-card-text{
+    font-weight: lighter;
+    font-size: 0.7rem;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.fo-card-button{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: #9792e4;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    width: 45%;
+    height: 12%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+
