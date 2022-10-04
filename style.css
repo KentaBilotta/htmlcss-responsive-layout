@@ -58,6 +58,21 @@ header{
     border-radius: 15px;
 }
 
+.menu-button{
+    display: none;
+}
+
+.menu-open{
+    display: none;
+}
+
+.option{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
 /* this part of styling is mostly refered to the first section of main */
 .first-sec{
     height: 70vh;

@@ -1,5 +1,9 @@
 /* here is the style for the responsive on tablet */
 @media screen and (max-width: 810px){
+    body{
+        max-width: 810px;
+    }
+
     .link{
         font-size: 0.7rem;
     }
@@ -100,5 +104,37 @@
 
     .foot-bottom-cont{
         width: 80%;
+    }
+
+    /* Per questa parte di stile farò in modo che il menù non venga visualizzato direttamente, ma che si apra con un "bottone" che indica il menù stesso */
+
+    .menu{
+        display: none;
+
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .menu-button{
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 15px;
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .menu-open{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        display: none;
     }
 }
